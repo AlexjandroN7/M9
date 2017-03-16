@@ -1,0 +1,26 @@
+svg
+{
+	position: fixed;
+}
+#c1
+{
+	margin: 0 auto;
+	z-index: -1;
+
+}
+body
+{
+	overflow: scroll;
+	background-color: grey;
+}
+*
+{
+	margin: 0 auto;
+}
+#t1 {
+	position: fixed;
+	z-index: 1;
+}
+#t2 {
+	font-size: 16px;
+}

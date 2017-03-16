@@ -1,0 +1,52 @@
+.estrellas_rotatorias {
+	margin-left: 200px;
+
+}
+.estrellas_cayendo {
+	margin-top: 0px;
+	margin-left: 200px;
+
+}
+.star_r {
+  fill: red;
+	stroke: black;
+	display: block;
+	animation-name: rotar;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+.star_c{
+	stroke: red;
+	display: relative;
+	animation-name:caer;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes rotar {
+	0% {
+			transform: rotateY(0deg);
+	}
+	25% {
+			transform: rotateY(90deg);
+	}
+	}
+	75% {
+			transform: rotateY(270deg);
+	}
+	100% {
+			transform: rotateY(360deg);
+	}
+
+@keyframes caer {
+	0%{
+    transform: translate(0,0px);
+  }
+	50%{transform: translate(0,300px);}
+	100 {
+	top: transform: translate(0,600px);
+}
+
+}
+}

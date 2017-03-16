@@ -1,0 +1,28 @@
+body {
+	background-color: red;
+	width: 100%;
+}
+
+header {
+	width: 95%;
+	background-color: green;
+	height: 200px;
+}
+
+content{
+	width: 95%;
+	background-color: blue;
+	height: 200px;
+	margin-top: 20px;
+	float: left;
+}
+
+
+footer{
+
+	width: 95%;
+	background-color: blue;
+	height: 200px;
+	margin-top: 20px;
+	float: left;
+}

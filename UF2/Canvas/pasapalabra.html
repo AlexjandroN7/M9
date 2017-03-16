@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="canvas" width="400" height="400" >
+</canvas>
+
+<script>
+var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
+var radius = canvas.height / 2;
+ctx.translate(radius, radius);
+radius = radius * 0.90
+drawCircle();
+function drawCircle() {
+  //drawFace(ctx, radius);
+  drawElements(ctx, radius);
+}
+function drawElements(ctx, radius) {
+  var ang;
+  var num;
+  var abc=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","u","v","x","y","z"];
+
+  ctx.font = radius*0.10 + "px arial";
+  ctx.textBaseline="middle";
+  ctx.textAlign="center";
+  for(num = 1; num < 25; num++){
+    ang = num * Math.PI / 12;
+    ctx.rotate(ang);
+    ctx.translate(0, -radius*0.90);
+    ctx.rotate(-ang);
+    ctx.fillText(abc[num-1], 0, 0);
+	ctx.beginPath();
+	ctx.arc(0,0,15,0,2*Math.PI);
+	ctx.stroke();
+    ctx.rotate(ang);
+    ctx.translate(0, radius*0.90);
+    ctx.rotate(-ang);
+  }
+}
+</script>
+
+</body>
+</html>

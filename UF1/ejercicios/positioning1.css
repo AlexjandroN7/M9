@@ -1,0 +1,30 @@
+
+.caja1{
+	width: 70px;
+float: left;
+background-color: blue;
+height: 50px;
+position: absolute;
+border: solid;
+}
+.caja2{
+	
+	margin-left: 85px;
+	float: right;
+	background-color: green;
+	width:1180px;
+	height: 630px;
+	margin-bottom: 10px;
+	position: absolute;
+	border: solid;
+}
+.caja3{
+	
+	width: 70px;
+	background-color: blue;
+	height: 50px;
+	position: absolute;
+	float:left;
+	margin-left:1280px;
+border: solid;
+	}

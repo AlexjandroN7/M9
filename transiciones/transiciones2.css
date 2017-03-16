@@ -1,0 +1,57 @@
+@keyframes uno {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+h1 {
+    text-align: center;
+    animation-name: uno;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes dos {
+    0% {
+        background-color: white;
+    }
+    100% {
+        background-color: blue;
+    }
+}
+
+div {
+    margin: 0 auto;
+    animation-name: dos, tres;
+    animation-delay: 3s, 5s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    width: 20px;
+    height: 1000px;
+}
+
+@keyframes tres {
+    0% {
+        transform: rotate(0deg);
+        background-color: blue;
+    }
+    25% {
+        background-color: blue;
+        transform: rotate(90deg);
+    }
+    50% {
+        background-color: blue;
+        transform: rotate(180deg);
+    }
+    75% {
+        background-color: blue;
+        transform: rotate(270deg);
+    }
+    100% {
+        background-color: blue;
+        transform: rotate(360deg);
+    }
+}

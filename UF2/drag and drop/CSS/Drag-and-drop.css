@@ -1,0 +1,70 @@
+﻿*{
+	margin:		0px;
+	padding:	0px;
+}
+
+html{
+	background-color:	rgb(224, 236, 0);
+}
+
+#caja{
+	position: relative;
+    width: 50%;
+    left: 25%;
+    top: 25%;
+	min-height:	50px;
+}
+
+#imgFlecha,
+#imgCirculo,
+#lineas{
+	position:	absolute;
+}
+
+#imgFlecha{
+	z-index:	3;
+	left:		0%;
+
+	width:		60px;
+	height:		60px;
+	background-image:	url("../Imgs/drag.png");
+	background-repeat:	no-repeat;
+	margin-left:	-30px;
+}
+
+#imgCirculo{
+	z-index:	2;
+	left:		99%;
+	top:		15px;
+
+	width:		30px;
+	height:		30px;
+	background-image:	url("../Imgs/drop.png");
+	background-repeat:	no-repeat;
+	margin-left:		-15px;
+	position: absolute;
+}
+#lineas{
+
+    background: linear-gradient(90deg, white 50%, transparent 50%);
+    background-size: 15px 4px;
+    background-position: 0px 0px;
+
+	z-index:	1;
+	top:	50%;
+	right:	0px;
+
+	height:	4px;
+	width:	100%;
+	margin-top:	2px;
+	animation-duration:	1s;
+	animation-name:		bordeMover;
+	/*animation-fill-mode: forwards;*/
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+	@keyframes bordeMover{
+		100%{
+			background-position: 15px 0px;
+		}
+	}

@@ -1,0 +1,21 @@
+.content {
+	width: 500px;
+margin: 0 auto;
+border: 3px solid;
+border-color: black;
+height: 140px;
+
+
+}
+
+h3 {
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+paragraph {
+width: 50%;
+	margin-left: 89px;
+
+}

@@ -1,0 +1,26 @@
+﻿svg
+{
+	position: fixed;
+}
+body
+{
+	overflow: scroll;
+}
+*
+{
+	margin: 0 auto;
+}
+
+/*
+	╔════════════╗
+	║   Bordes   ║
+	╚════════════╝
+*/
+#bordeRosa { border: dashed 2px pink; }
+#bordeVerde{ border: dashed 2px green; }
+#bordeVerde{ border: dashed 2px green; }
+#bordeRojo{ border: dashed 2px red; }
+#bordeAzul{ border: dashed 2px blue; }
+#bordeAmarillo{ border: dashed 2px yellow; }
+#bordeNegro{ border: dashed 2px black; }
+#bordeHumo{ border: dashed 2px whitesmoke; }

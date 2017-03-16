@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+ <body onload="draw();">
+   <canvas id="canvas" width="100" height="200"></canvas>
+   <script>
+   function draw() {
+  var canvas = document.getElementById('canvas');
+  var canvas2 = document.getElementById('canvas');
+  if (canvas.getContext){
+    var ctx = canvas.getContext('2d');
+    var rec = canvas2.getContext('2d');
+    ctx.beginPath();
+    ctx.moveTo(100,75);
+    ctx.lineTo(50,75);
+    ctx.lineTo(75,25);
+    ctx.fillStyle="#0101DF";
+    ctx.fill();
+
+    rec.fillRect(50,76,200,205);
+
+
+
+  }
+}
+
+   </script>
+ </body>
+</html>

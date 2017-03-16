@@ -1,0 +1,37 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1445" measuredH="850" mockupW="1144" mockupH="850">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="301" y="0" w="972" h="850" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6989903</color>
+        <text>Floristeria%20Cementerio%0Ahttps%3A//www.florterio.com%0A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::ButtonBar" x="505" y="193" w="565" h="47" measuredW="213" measuredH="27" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Inicio%2CCatalogo%2CServicios</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::VerticalTabBar" x="1114" y="79" w="331" h="427" measuredW="200" measuredH="182" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0</backgroundAlpha>
+        <color>16777215</color>
+        <text>Proveedores%0AEnvios%20especiales%0AContacte%20con%20nosotros%0AReclamaciones</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="703" y="152" w="-1" h="-1" measuredW="132" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Flores%20pa%20tus%20muertos%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Title" x="575" y="94" w="-1" h="-1" measuredW="411" measuredH="43" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Floristeria%20Cementerio%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Image" x="587" y="255" w="386" h="318" measuredW="633" measuredH="639" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/corona-de-flores-economica.jpg</src>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
