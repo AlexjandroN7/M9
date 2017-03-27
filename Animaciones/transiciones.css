@@ -1,0 +1,28 @@
+h1 {
+    border: 12px solid transparent;
+    padding: 10px;
+    -webkit-border-image: url(imag/border.png) 30 stretch; /* Safari 3.1-5 */
+    -o-border-image: url(imag/border.png) 30 stretch; /* Opera 11-12.1 */
+    border-image: url(imag/border.png) 30 stretch;
+    text-align: center;
+}
+
+div {
+    width: 400px;
+    height: 500px;
+    background: blue;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
+
+
+@keyframes example {
+	0% {background-color: blue;}
+	25%{background-color: yellow;}
+	50% {background-color: orange}
+	100%{background-color: green;}
+}
+div {
+    animation-name: example;
+    animation-duration: 4s;
+}
